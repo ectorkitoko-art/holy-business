@@ -8,7 +8,7 @@ export default function Home() {
   const prixBloc = 4000;
   const livraison = qty <= 5 ? 8000 : qty <= 10 ? 10000 : qty < 20 ? 15000 : 20000;
   const total = qty * prixBloc + livraison;
-  const wa = "https://wa.me/243810011861?text=";
+  const wa = "https://wa.me/243810222167?text=";
   const message = `Bonjour HOLY BUSINESS 🧊, je veux commander ${qty} bloc(s) de glace. Ma commune : ${commune || "[ma commune]"}. Total : ${total.toLocaleString()} FC (livraison incluse). C'est possible ?`;
   
   return (
